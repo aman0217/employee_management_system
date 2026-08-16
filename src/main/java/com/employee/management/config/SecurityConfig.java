@@ -46,9 +46,11 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(
                 List.of(
                         "http://localhost:5173",
-                        "http://localhost:5174"
+                        "http://localhost:5174",
+                        "https://employee-management-frontend-5nbn.onrender.com"
                 )
         );
+
 
         configuration.setAllowedMethods(
                 List.of(
